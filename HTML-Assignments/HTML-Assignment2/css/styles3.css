@@ -1,0 +1,37 @@
+.header {
+  background-color: orange;
+  padding: 10px;
+}
+
+.middle-content {
+  background-color: rgb(29, 29, 57);
+  padding: 10px;
+}
+
+.footer {
+  background-color: orange;
+  text-align: right;
+  padding: 15px 20px;
+}
+
+label {
+  color: yellow;
+}
+
+.cancel {
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+}
+
+.submit {
+  padding: 10px 20px;
+  color: white;
+  background-color: green;
+  border: none;
+}
+
+body {
+  padding-left: 500px;
+}

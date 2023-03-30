@@ -1,0 +1,12 @@
+* {
+    background-color: #21a3db;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+h1, h2 {
+    color: rgb(255, 255, 0);
+}

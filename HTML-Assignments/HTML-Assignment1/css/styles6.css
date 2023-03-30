@@ -1,0 +1,31 @@
+* {
+    background-color: rgb(127, 255, 244);
+}
+
+#mainHeading {
+    color: rgb(25, 93, 25);
+}
+
+h1 {
+    color: red;
+}
+
+#secondH2 {
+    color: blueviolet
+}
+
+h3 {
+    color: darkorange
+}
+
+h4 {
+    color: darkmagenta
+}
+
+h5 {
+    color: blue;
+}
+
+h6 {
+    color: brown
+}

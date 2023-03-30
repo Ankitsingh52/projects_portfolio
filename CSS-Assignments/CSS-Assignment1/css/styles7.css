@@ -1,0 +1,83 @@
+#first-row {
+    background: rgb(167, 232, 161);
+    height: 150px;
+    width: 730px;
+}
+
+#green {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+#yellow-div {
+    background: rgb(243, 243, 174);
+    width: 220px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+#yellow-div-element {
+    position: relative;
+    margin-left: 22px;
+    padding-top: 20px;
+}
+
+.second-div-element {
+    margin-left: 35px;
+    background: white;
+    width: 125px;
+    padding: 10px;
+}
+
+#orange-div {
+    position: absolute;
+    background: rgb(253, 220, 180);
+    left: 255px;
+    top: 191px;
+    width: 235px;
+    height: 137px;
+}
+
+#orange-div-element {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#blue-div {
+    position: absolute;
+    background: skyblue;
+    left: 255px;
+    top: 352px;
+    width: 235px;
+    height: 137px;
+}
+
+#blue-div-element {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#red-div {
+    position: absolute;
+    background: #ffb6c1;
+    width: 220px;
+    height: 300px;
+    margin-top: 25px;
+    left: 518px;
+    top: 166px;
+}
+
+#red-div-element {
+    position: relative;
+    margin-left: 22px;
+    margin-top: 16px;
+}
+
+.red-div-class {
+
+    margin-left: 35px;
+    background: white;
+    width: 125px;
+    padding: 10px;
+
+}

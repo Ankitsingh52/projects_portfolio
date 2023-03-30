@@ -1,0 +1,79 @@
+h3 {
+  display: inline-block;
+  width: 120px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.close {
+  display: inline-block;
+  margin: 30px;
+}
+
+body {
+  background: gray;
+}
+
+.login-container {
+  width: 600px;
+  margin-top: 50px;
+  margin-left: 400px;
+  background: white;
+  height: 450px;
+}
+
+input {
+  border: none;
+}
+
+#email1,
+#pwd1 {
+  border: 1px solid rgb(192, 184, 184);
+  border-radius: 3px;
+  width: 560px;
+  padding: 0px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+#msg,
+#unlock {
+  position: relative;
+  background-color: rgb(189, 186, 186);
+  ;
+  margin: 0px;
+  padding: 10px;
+  border-radius: 1px;
+}
+
+p {
+  color: rgb(179, 176, 176);
+  margin-left: 14px;
+}
+
+#cancel {
+  border: none;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+}
+
+#sign-in {
+  border: none;
+  padding: 10px;
+  background-color: rgb(57, 116, 234);
+  color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+
+}
+
+.labels {
+  margin-left: 15px;
+}
+
+#remember {
+  padding: 40px;
+}

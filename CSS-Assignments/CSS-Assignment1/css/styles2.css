@@ -1,0 +1,10 @@
+div {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+p {
+    font-weight: 700;
+    font-size: small;
+
+}

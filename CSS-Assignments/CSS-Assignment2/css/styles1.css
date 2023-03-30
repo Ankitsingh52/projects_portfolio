@@ -1,0 +1,237 @@
+body {
+    background-color: #89EABF;
+
+}
+
+#container {
+    margin-left: 40px;
+}
+
+#box-columns {
+    font-weight: bold;
+    font-size: 22px;
+
+    margin-right: 40px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#para {
+
+    margin-right: 40px;
+}
+
+.cat {
+    width: 300px;
+    height: 244px;
+}
+
+figure {
+    width: 300px;
+    display: inline-block;
+    height: 271px;
+    margin-left: 0px;
+}
+
+#first-cat {
+    display: inline-block;
+
+    border: 8px solid black;
+    width: 300px;
+    height: 271px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+    margin-right: 30px;
+
+}
+
+figcaption {
+    position: relative;
+    background-color: black;
+    width: 298px;
+    margin-top: -5px;
+    color: white;
+    padding: 5px;
+
+}
+
+#second-cat {
+    display: inline-block;
+    height: 271px;
+    border: 8px solid black;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+    margin-right: 30px;
+
+
+}
+
+#third-cat {
+    display: inline-block;
+    border: 8px solid black;
+    width: 300px;
+    height: 271px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+    margin-right: 30px;
+
+}
+
+#fourth-cat {
+    display: inline-block;
+    border: 8px solid black;
+    width: 300px;
+    height: 271px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+    margin-right: 30px;
+
+}
+
+#fifth-cat {
+    display: inline-block;
+    border: 8px solid black;
+    width: 300px;
+    height: 271px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+    margin-right: 30px;
+
+}
+
+/* For mobile screens */
+@media only screen and (max-width: 767px) {
+
+
+
+    .cat {
+        width: 500px;
+        height: 244px;
+    }
+
+    figure {
+        width: 300px;
+        display: inline-block;
+        height: 271px;
+        margin-left: 0px;
+        width: 100%;
+        display: block;
+        margin: 0 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #first-cat {
+        display: inline-block;
+
+        border: 8px solid black;
+        width: 500px;
+        height: 271px;
+        border-radius: 5px;
+        margin-top: 40px;
+
+        margin-right: 30px;
+
+    }
+
+    figcaption {
+        position: relative;
+        background-color: black;
+        width: 490px;
+        margin-top: -5px;
+        color: white;
+        padding: 5px;
+
+    }
+
+    #second-cat {
+        display: inline-block;
+
+        border: 8px solid black;
+        width: 500px;
+        height: 271px;
+        border-radius: 5px;
+        margin-top: 40px;
+
+        margin-right: 30px;
+
+
+    }
+
+    #third-cat {
+        display: inline-block;
+        border: 8px solid black;
+        width: 500px;
+        height: 271px;
+        border-radius: 5px;
+        margin-top: 40px;
+
+        margin-right: 30px;
+
+    }
+
+    #fourth-cat {
+        display: inline-block;
+        border: 8px solid black;
+        width: 500px;
+        height: 271px;
+        border-radius: 5px;
+        margin-top: 40px;
+
+        margin-right: 30px;
+
+    }
+
+    #fifth-cat {
+        display: inline-block;
+        border: 8px solid black;
+        width: 500px;
+        height: 271px;
+        border-radius: 5px;
+        margin-top: 40px;
+
+        margin-right: 30px;
+
+    }
+
+    body {
+        background: #F3EEEE;
+    }
+}
+
+/* For tablet screens */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    figure {
+        width: 50%;
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+    }
+
+    body {
+        background-color: #89D4EA;
+    }
+
+}
+
+/* For desktop screens */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: #89EABF;
+    }
+
+    figure {
+        width: calc(100% / 3);
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+    }
+}

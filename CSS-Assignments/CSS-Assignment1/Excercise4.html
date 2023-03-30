@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Excercise4</title>
+  <link rel="stylesheet" href="./css/styles4.css">
+</head>
+
+<body>
+
+
+  <div id="pop-up" class="modal">
+
+    <div class="popup-content">
+      <span class="close" style='font-size:32px; color: black; font-weight: 90; margin-left: 12px;'>&#10006;</span>
+      <br><br><br>
+      <h1>CSSScript.com</h1>
+      <p class="para">Education is the process of acquiring knowledge, skills, values, and attitudes through various
+        means such as teaching, training, research, and experience. It is a lifelong process that begins from birth and
+        continues until death. Education is essential for personal growth, social development, and economic progress. In
+        this essay, I will discuss education in terms of its importance, types, and challenges.
+
+        Importance of Education
+        Education is essential for personal growth and development. It enables individuals to acquire knowledge, skills,
+        and attitudes that are necessary for success in life. Education helps individuals to think critically,
+        communicate effectively, and solve problems creatively. It also helps individuals to understand themselves and
+        others, and to appreciate diversity. Education plays a significant role in social development by promoting
+        social justice, equality, and human rights. It helps individuals to understand their responsibilities as
+        citizens and to participate actively in their communities. Finally, education is essential for economic progress
+        by providing individuals with the skills and knowledge necessary to compete in a global economy.
+
+        Types of Education
+        Education can be classified into formal, non-formal, and informal education. Formal education is structured and
+        provided in schools, colleges, and universities. It is usually provided by trained teachers and follows a
+        specific curriculum. Formal education is typically measured through grades, assessments, and certifications.
+        Non-formal education is provided outside of formal institutions and is usually voluntary. It includes adult
+        education, vocational training, and community-based programs. Non-formal education is typically less structured
+        than formal education and is often designed to meet specific needs. Informal education is the learning that
+        takes place in everyday life. It includes learning from family, friends, and colleagues, as well as from the
+        media and the environment. Informal education is often unstructured and unplanned, but it can be a powerful
+        means of learning.
+
+        Challenges in Education
+        Despite the importance of education, there are many challenges that prevent individuals from accessing quality
+        education. One of the biggest challenges is poverty. Poverty often leads to a lack of resources, such as
+        schools, teachers, and educational materials. Poverty also prevents individuals from accessing quality education
+        due to the high cost of tuition fees and other expenses. Another challenge is inequality. Inequality in
+        education can be based on gender, race, religion, and socioeconomic status. Inequality in education can lead to
+        disparities in academic achievement, access to resources, and opportunities for social and economic mobility.
+        Finally, there are challenges related to the quality of education. Quality education requires well-trained
+        teachers, relevant curricula, and appropriate learning materials. However, many schools lack these resources,
+        which can lead to poor academic achievement and a lack of motivation among students.
+
+
+
+      </p>
+      <button id="first" class="cancel-btn">Cancel</button>
+      <button id="second" class="okay-btn">Okey</button>
+
+    </div>
+
+
+  </div>
+  <center><button class="glow-on-hover" style="margin-top: 340px;" id="btn">Open</button>
+  </center>
+
+  <script>
+    var pop_up = document.getElementById("pop-up");
+
+    var btn = document.getElementById("btn");
+    var x = document.getElementById("first");
+    var y = document.getElementById("second");
+    var cross = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function () {
+      pop_up.style.display = "block";
+
+    }
+
+    cross.onclick = function () {
+      pop_up.style.display = "none";
+    }
+    x.onclick = function () {
+      pop_up.style.display = "none";
+    }
+    y.onclick = function () {
+      pop_up.style.display = "none";
+    }
+
+    window.onclick = function (event) {
+      if (event.target == pop_up) {
+        pop_up.style.display = "none";
+      }
+    }
+  </script>
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+</body>
+
+</html>

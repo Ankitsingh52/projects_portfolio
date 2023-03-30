@@ -1,0 +1,99 @@
+#first-row {
+    background: rgb(248, 241, 176);
+    height: 150px;
+    width: 700px;
+}
+
+#yellow {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.first-div-element {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 3px;
+    margin-left: 25px;
+    background-color: white;
+    width: 90px;
+    /* top right bottom left */
+}
+
+#number1 {
+    width: 180px;
+    margin-left: 35px;
+}
+
+#blue-div {
+    background: skyblue;
+    width: 150px;
+    height: 560px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+#blue-div-element {
+    position: relative;
+    margin-left: 15px;
+    top: 10px;
+}
+
+#orange-div {
+    position: absolute;
+    width: 150px;
+    background: rgb(253, 220, 180);
+    left: 180px;
+    top: 196px;
+    width: 528px;
+    height: 160px;
+}
+
+#orange-div-element {
+    position: relative;
+    margin-left: 15px;
+    top: 10px;
+
+}
+
+#red-div {
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+    background: #ffb6c1;
+    left: 180px;
+    top: 390px;
+    width: 528px;
+    height: 160px;
+}
+
+#red-div-element {
+    position: relative;
+    margin-left: 15px;
+    top: 10px;
+}
+
+.red-div-class {
+    display: inline-block;
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 75px;
+}
+
+#green-div {
+    position: absolute;
+    width: 150px;
+    background: rgb(155, 235, 195);
+    left: 180px;
+    top: 585px;
+    width: 528px;
+    height: 168px;
+}
+
+#green-div-element {
+    position: relative;
+    margin-left: 15px;
+    top: 10px;
+
+}

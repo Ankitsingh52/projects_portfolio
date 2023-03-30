@@ -1,0 +1,23 @@
+* {
+    background-color: rgb(165, 236, 248);
+}
+
+h1 {
+    color: blue;
+}
+
+#firstPara {
+    color: orange
+}
+
+#secondPara {
+    color: blueviolet;
+}
+
+#thirdPara {
+    color: rgb(164, 5, 58);
+}
+
+#lastPara {
+    color: rgb(169, 12, 169);
+}
